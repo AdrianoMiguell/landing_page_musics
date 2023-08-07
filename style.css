@@ -1,0 +1,130 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css");
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+
+:root {
+  --main-c: 214, 105, 57;
+  --sec-c: 247, 255, 243;
+}
+#color {
+  color: rgb(214, 105, 57);
+  color: rgb(247, 255, 243);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  background-image: url("./img/fotografo-e-o-mar-de-nuvens-durante-o-por-do-sol.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+}
+
+nav {
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+  padding: 1.5rem 5rem;
+  color: white;
+}
+
+nav h1 {
+  font-size: medium;
+}
+nav ul {
+  display: flex;
+  gap: 10px;
+  list-style: none;
+  font-size: medium;
+}
+nav ul li {
+  padding: 2px 5px;
+  cursor: pointer;
+}
+nav ul li:hover {
+  background-color: rgba(240, 248, 255, 0.062);
+}
+nav ul li a {
+  text-decoration: none;
+  color: rgb(var(--main-c));
+  font-weight: bold;
+  text-shadow: 0.25px 0.25px rgb(var(--sec-c));
+}
+
+.C-shadow {
+  content: " l ";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 500px;
+  height: 100vh;
+  background: linear-gradient(to right, black 38%, transparent 100%);
+  z-index: -1;
+}
+
+main {
+  display: flex;
+  gap: 2.5em;
+  padding: 1.5rem 5rem;
+}
+
+.inf:first-child::before {
+  content: "";
+  position: absolute;
+  width: 1.5px;
+  height: 25vh;
+  translate: 0 -25vh;
+  background-color: white;
+}
+.inf:first-child {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  color: white;
+  translate: 0 30vh;
+  gap: 1rem;
+  font-size: 14pt;
+}
+.inf:first-child::after {
+  content: "";
+  position: absolute;
+  top: 20vh;
+  width: 1.5px;
+  height: 25vh;
+  background-color: white;
+}
+
+.inf:last-child {
+  position: absolute;
+  margin-left: 4rem;
+  margin-top: 18vh;
+  color: white;
+  padding: 1rem;
+  font-family: 'Inter', sans-serif;
+}
+.inf:last-child button {
+  border: 2px solid rgb(var(--main-c));
+  background-color: transparent;
+  padding: 5px 15px;
+  color: rgb(var(--main-c));
+}
+.inf:last-child p {
+  width: 45vw;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100vw;
+  height: 10px;
+  padding: 1rem;
+  text-align: center;
+  font-size: 7pt;
+  color: white;
+}
