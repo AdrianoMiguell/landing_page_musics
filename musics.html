@@ -1,13 +1,226 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="geral.css">
-    <link rel="stylesheet" href="musics.css">
-</head>
-<body>
-    
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Músicas preferidas</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+      crossorigin="anonymous"
+    ></script>
+
+    <link rel="stylesheet" href="./css/geral.css" />
+    <link rel="stylesheet" href="./css/musics.css" />
+  </head>
+  <body>
+    <nav>
+      <h1>Músicas Preferidas</h1>
+
+      <ul>
+        <li><a href="#">Autores</a></li>
+        <li><a href="#">Sobre</a></li>
+        <li><a href="#">Contato</a></li>
+      </ul>
+    </nav>
+
+    <main>
+      <section>
+        <h2>Músicas</h2>
+
+        <style>
+
+.musics{
+    /* background-color: aqua; */
+    display: flex;
+    gap: 1em;
+    overflow-x: scroll;
+}
+.musics .four-musics{
+    padding: 10px 20px;
+    display: grid;
+    background-color: antiquewhite;
+    gap: 1em;
+    width: 25em;
+    margin: 1em;
+}
+.music{
+    width: 25em;
+    display: flex;
+    gap: 8px;
+}
+.music .image > img{
+    width: 35px;
+    height: 35px;
+}
+.music .informs{
+    display: grid;
+    gap: 1px;
+}
+.music .informs .title-music{
+    color: rgb(var(--main-c));
+    font-weight: 600;
+    font-size: 10pt;
+}
+.music .informs .album-music{
+    color: rgb(213, 217, 219);
+    font-size: 10pt;
+}
+
+        </style>
+
+        <div class="musics">
+          <div class="four-musics">
+            
+            <div class="music">
+              <div class="image">
+                <img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcR7mbIi47ngizkjZzgEwmsvvuHfzYyHxAjjk-A4yBecAkv7bKur" alt="" />
+              </div>
+              <div class="informs">
+                <span class="title-music">
+                    Ele Vem - Campori Desbravadores
+                </span>
+                <span class="album-music">
+                    Campori Useb - Ele Vem
+                </span>
+              </div>
+            </div>
+
+            <div class="music">
+              <div class="image">
+                <img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcR7mbIi47ngizkjZzgEwmsvvuHfzYyHxAjjk-A4yBecAkv7bKur" alt="" />
+              </div>
+              <div class="informs">
+                <span class="title-music">
+                    Ele Vem - Campori Desbravadores
+                </span>
+                <span class="album-music">
+                    Campori Useb - Ele Vem
+                </span>
+              </div>
+            </div>
+
+            <div class="music">
+              <div class="image">
+                <img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcR7mbIi47ngizkjZzgEwmsvvuHfzYyHxAjjk-A4yBecAkv7bKur" alt="" />
+              </div>
+              <div class="informs">
+                <span class="title-music">
+                    Ele Vem - Campori Desbravadores
+                </span>
+                <span class="album-music">
+                    Campori Useb - Ele Vem
+                </span>
+              </div>
+            </div>
+
+            <div class="music">
+              <div class="image">
+                <img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcR7mbIi47ngizkjZzgEwmsvvuHfzYyHxAjjk-A4yBecAkv7bKur" alt="" />
+              </div>
+              <div class="informs">
+                <span class="title-music">
+                    Ele Vem - Campori Desbravadores
+                </span>
+                <span class="album-music">
+                    Campori Useb - Ele Vem
+                </span>
+              </div>
+            </div>
+
+          </div>
+          <div class="four-musics">
+            <div class="music">
+                <div class="image">
+                  <img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcR7mbIi47ngizkjZzgEwmsvvuHfzYyHxAjjk-A4yBecAkv7bKur" alt="" />
+                </div>
+                <div class="informs">
+                  <span class="title-music">
+                      Ele Vem - Campori Desbravadores
+                  </span>
+                  <span class="album-music">
+                      Campori Useb - Ele Vem
+                  </span>
+                </div>
+              </div>
+          </div>
+          <div class="four-musics">
+            <div class="music">
+                <div class="image">
+                  <img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcR7mbIi47ngizkjZzgEwmsvvuHfzYyHxAjjk-A4yBecAkv7bKur" alt="" />
+                </div>
+                <div class="informs">
+                  <span class="title-music">
+                      Ele Vem - Campori Desbravadores
+                  </span>
+                  <span class="album-music">
+                      Campori Useb - Ele Vem
+                  </span>
+                </div>
+              </div>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <h2>Albuns</h2>
+      </section>
+    </main>
+
+    <!-- <nav>
+      <button
+        class="btn btn-primary"
+        type="button"
+        data-bs-toggle="offcanvas"
+        data-bs-target="#offcanvasExample"
+        aria-controls="offcanvasExample"
+      >
+        <i class="bi bi-list"></i>
+      </button>
+
+      <div
+        class="offcanvas offcanvas-start"
+        tabindex="-1"
+        id="offcanvasExample"
+        aria-labelledby="offcanvasExampleLabel"
+      >
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasExampleLabel">Offcanvas</h5>
+          <button
+            type="button"
+            class="btn-close"
+            data-bs-dismiss="offcanvas"
+            aria-label="Close"
+          ></button>
+        </div>
+        <div class="offcanvas-body">
+          <div>
+            Some text as placeholder. In real life you can have the elements you
+            have chosen. Like, text, images, lists, etc.
+          </div>
+          <div class="dropdown mt-3">
+            <button
+              class="btn btn-secondary dropdown-toggle"
+              type="button"
+              data-bs-toggle="dropdown"
+            >
+              Dropdown button
+            </button>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+    </nav> -->
+  </body>
 </html>
