@@ -4,12 +4,12 @@
 :root {
   --main-c: 214, 105, 57;
   --sec-c: 247, 255, 243;
-  --tert-c: 6, 5, 36;
+  --tert-c: 3, 3, 12;
 }
 #color {
   color: rgb(214, 105, 57);
   color: rgb(247, 255, 243);
-  color: rgb(6, 5, 36);
+  color: rgb(4, 3, 12);
 }
 
 * {
@@ -26,12 +26,12 @@ nav {
   width: 100vw;
   display: flex;
   justify-content: space-between;
-  padding: 1.5rem 5rem;
+  padding: 1.5rem 2.5rem;
   color: white;
 }
 nav h1 {
-  font-size: medium;
-}
+  font-size: 15pt;
+} 
 nav ul {
   display: flex;
   gap: 10px;
@@ -43,7 +43,7 @@ nav ul li {
   padding: 2px 5px;
   cursor: pointer;
 }
-nav ul li a {
+nav ul li a, nav a{
   text-decoration: none;
   color: rgb(var(--sec-c));
   font-weight: bold;

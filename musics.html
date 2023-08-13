@@ -21,7 +21,9 @@
   </head>
   <body>
     <nav>
-      <h1>Músicas Preferidas</h1>
+      <a href="./index.html">
+        <h1>Músicas Preferidas</h1>
+      </a>
 
       <ul>
         <li><a href="#">Autores</a></li>
@@ -31,52 +33,72 @@
     </nav>
 
     <main>
-      <section>
+      <section class="sec-musics">
         <h2>Músicas</h2>
 
-        <style>
+        <div class="musics"></div>
 
-.musics{
-    /* background-color: aqua; */
-    display: flex;
-    gap: 1em;
-    overflow-x: scroll;
-}
-.musics .four-musics{
-    padding: 10px 20px;
-    display: grid;
-    background-color: antiquewhite;
-    gap: 1em;
-    width: 25em;
-    margin: 1em;
-}
-.music{
-    width: 25em;
-    display: flex;
-    gap: 8px;
-}
-.music .image > img{
-    width: 35px;
-    height: 35px;
-}
-.music .informs{
-    display: grid;
-    gap: 1px;
-}
-.music .informs .title-music{
-    color: rgb(var(--main-c));
-    font-weight: 600;
-    font-size: 10pt;
-}
-.music .informs .album-music{
-    color: rgb(213, 217, 219);
-    font-size: 10pt;
-}
+        <div class="albums">
+          <h2>Albuns</h2>
+        </div>
+      </section>
+    </main>
 
-        </style>
+    <script src="./js/musics.js"></script>
+  </body>
+</html>
 
-        <div class="musics">
-          <div class="four-musics">
+<!-- <nav>
+      <button
+        class="btn btn-primary"
+        type="button"
+        data-bs-toggle="offcanvas"
+        data-bs-target="#offcanvasExample"
+        aria-controls="offcanvasExample"
+      >
+        <i class="bi bi-list"></i>
+      </button>
+
+      <div
+        class="offcanvas offcanvas-start"
+        tabindex="-1"
+        id="offcanvasExample"
+        aria-labelledby="offcanvasExampleLabel"
+      >
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasExampleLabel">Offcanvas</h5>
+          <button
+            type="button"
+            class="btn-close"
+            data-bs-dismiss="offcanvas"
+            aria-label="Close"
+          ></button>
+        </div>
+        <div class="offcanvas-body">
+          <div>
+            Some text as placeholder. In real life you can have the elements you
+            have chosen. Like, text, images, lists, etc.
+          </div>
+          <div class="dropdown mt-3">
+            <button
+              class="btn btn-secondary dropdown-toggle"
+              type="button"
+              data-bs-toggle="dropdown"
+            >
+              Dropdown button
+            </button>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+    </nav> -->
+
+<!-- <div class="four-musics">
             
             <div class="music">
               <div class="image">
@@ -164,63 +186,4 @@
                   </span>
                 </div>
               </div>
-          </div>
-        </div>
-      </section>
-
-      <section>
-        <h2>Albuns</h2>
-      </section>
-    </main>
-
-    <!-- <nav>
-      <button
-        class="btn btn-primary"
-        type="button"
-        data-bs-toggle="offcanvas"
-        data-bs-target="#offcanvasExample"
-        aria-controls="offcanvasExample"
-      >
-        <i class="bi bi-list"></i>
-      </button>
-
-      <div
-        class="offcanvas offcanvas-start"
-        tabindex="-1"
-        id="offcanvasExample"
-        aria-labelledby="offcanvasExampleLabel"
-      >
-        <div class="offcanvas-header">
-          <h5 class="offcanvas-title" id="offcanvasExampleLabel">Offcanvas</h5>
-          <button
-            type="button"
-            class="btn-close"
-            data-bs-dismiss="offcanvas"
-            aria-label="Close"
-          ></button>
-        </div>
-        <div class="offcanvas-body">
-          <div>
-            Some text as placeholder. In real life you can have the elements you
-            have chosen. Like, text, images, lists, etc.
-          </div>
-          <div class="dropdown mt-3">
-            <button
-              class="btn btn-secondary dropdown-toggle"
-              type="button"
-              data-bs-toggle="dropdown"
-            >
-              Dropdown button
-            </button>
-            <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#">Action</a></li>
-              <li><a class="dropdown-item" href="#">Another action</a></li>
-              <li><a class="dropdown-item" href="#">Something else here</a></li>
-            </ul>
-          </div>
-        </div>
-      </div>
-
-    </nav> -->
-  </body>
-</html>
+          </div> -->

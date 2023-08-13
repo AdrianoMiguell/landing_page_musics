@@ -1,15 +1,63 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
- body{
-    background-color: rgb(var(--tert-c)) !important;
- }
+body {
+  background-color: rgb(var(--tert-c)) !important;
+}
 
- nav{
-    border-bottom: solid 2.5px rgb(var(--main-c));
- }
+nav {
+  border-bottom: solid 2.5px rgb(var(--main-c));
+}
 
- 
+.sec-musics h2 {
+  margin: 1em 1.25em;
+  color: rgb(var(--sec-c));
+}
+
+.musics {
+  /* background-color: aqua; */
+  display: flex;
+  gap: 1em;
+  overflow-x: scroll;
+}
+.musics::-webkit-scrollbar {
+  display: none;
+}
+.musics .four-musics {
+  padding: 10px 20px;
+  display: grid;
+  gap: 1em;
+  width: 22.5em;
+  margin: 1em;
+}
+.music {
+  padding: 5px;
+  width: 25em;
+  display: flex;
+  gap: 8px;
+  text-decoration: none;
+  cursor: pointer;
+}
+.music:hover {
+  background-color: rgba(var(--sec-c), .05);
+}
+.music .image > img {
+  width: 40px;
+  height: 40px;
+}
+.music .informs {
+  display: grid;
+  gap: 1px;
+}
+.music .informs .title-music {
+  color: rgb(var(--main-c));
+  font-weight: 600;
+  font-size: 10pt;
+}
+.music .informs .album-music {
+  color: rgb(213, 217, 219);
+  font-size: 10pt;
+}
