@@ -5,7 +5,8 @@ nav {
   border-bottom: solid 2.5px rgb(var(--main-c));
 }
 main{
-  margin-bottom: 5em;
+  /* margin-bottom: 10em; */
+  margin-bottom: 10rem;
 }
 
 .sec-musics h2 {
@@ -28,7 +29,7 @@ main{
   display: grid;
   gap: 1em;
   width: 22.5em;
-  margin: 1em;
+  margin: 0 1em;
 }
 .music {
   padding: 5px;
@@ -73,10 +74,9 @@ main{
   height: auto;
 }
 .album .desc_album {
-  font-size: 10pt;
+  font-size: 9pt;
   padding: 2.5px;
   display: grid;
-  gap: 1px;
   width: 100%;
   color: rgb(var(--sec-c));
 }

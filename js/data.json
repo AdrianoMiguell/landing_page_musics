@@ -1,5 +1,104 @@
 [
   {
+    "music": "Ouve meu Coração",
+    "album": "Mil Versos",
+    "autor": "Coral Jovem Unasp",
+    "canal": "Coral Shekinah BE",
+    "ano": "2017",
+    "link": "https://youtu.be/hh-gIgO9xAM",
+    "img": "ouve_meu_coracao-coral_unasp.jpg"
+  },
+  {
+    "music": "Libertação",
+    "album": "Filhos de Israel",
+    "autor": "Daniel Ludtke",
+    "canal": "GravadoraNT",
+    "ano": "2012",
+    "link": "",
+    "img": "filhos_israel-daniel_ludtke.jpg"
+  },
+  {
+    "music": "Canção de Pedro",
+    "album": "Luz do Mundo",
+    "autor": "Daniel Ludtke",
+    "canal": "Luan Isaque",
+    "ano": "2014",
+    "link": "https://youtu.be/tGh2lRGDYlM",
+    "img": "Jesus_luz-daniel_ludtke.jpg"
+  },
+  {
+    "music": "Me Cura",
+    "album": "Luz do Mundo",
+    "autor": "Daniel Ludtke",
+    "canal": "GravadoraNT",
+    "ano": "2014",
+    "link": "https://youtu.be/ox2yn3Vi8Zw",
+    "img": "Jesus_luz-daniel_ludtke.jpg"
+  },
+  {
+    "music": "Os Meus Lábios Te Louvam",
+    "album": "Salmos 1",
+    "autor": "Daniel Ludtke",
+    "canal": "GravadoraNT",
+    "ano": "2011",
+    "link": "https://youtu.be/hDal7TVWEJU",
+    "img": "salmos1-daniel_ludtke.jpg"
+  },
+  {
+    "music": "Sonda-me",
+    "album": "Salmos 2",
+    "autor": "Daniel Ludtke",
+    "canal": "GravadoraNT",
+    "ano": "2018",
+    "link": "https://youtu.be/PlYFAHmchmE",
+    "img": "salmos2-daniel_ludtke.jpg"
+  },
+  {
+    "music": "Espera em Deus",
+    "album": "Salmos 2",
+    "autor": "Daniel Ludtke",
+    "canal": "GravadoraNT",
+    "ano": "2018",
+    "link": "https://youtu.be/AQffaP4HWKE",
+    "img": "salmos2-daniel_ludtke.jpg"
+  },
+  {
+    "music": "Falta Você",
+    "album": "Falta Você",
+    "autor": "Fernando Iglesias",
+    "canal": "",
+    "ano": "2008",
+    "link": "",
+    "img": "falta_voce-fernando_iglesias.jpg"
+  },
+  {
+    "music": "O Mais Difícil é Ser Deus",
+    "album": "Falta Você",
+    "autor": "Fernando Iglesias",
+    "canal": "",
+    "ano": "2008",
+    "link": "",
+    "img": "falta_voce-fernando_iglesias.jpg"
+  },
+  {
+    "music": "O Seu Olhar",
+    "album": "Falta Você",
+    "autor": "Fernando Iglesias",
+    "canal": "",
+    "ano": "2008",
+    "link": "",
+    "img": "falta_voce-fernando_iglesias.jpg"
+  },
+  {
+    "music": "Pedaços",
+    "album": "Pedaços",
+    "autor": "Fernando Iglesias",
+    "canal": "",
+    "ano": "2014",
+    "link": "",
+    "img": "pedacos-fernando_iglesias.jpg"
+  },
+  {
     "music": "Minha Permissão",
     "album": "Terra Seca",
     "autor": "Fernando Iglesias",
@@ -16,6 +115,15 @@
     "ano": "2008",
     "link": "https://youtu.be/BpMgjPAMH78",
     "img": "terra_seca-fernando_iglesias.jpg"
+  },
+  {
+    "music": "Antes Você Precisa Crer",
+    "album": "Manhã",
+    "autor": "Laura Morena",
+    "canal": "",
+    "ano": "2010",
+    "link": "",
+    "img": "manha-laura_morena.jpg"
   },
   {
     "music": "A Última Lágrima",
@@ -45,13 +153,31 @@
     "img": "sublime_esperanca-jonatas_ferreira.jpg"
   },
   {
-    "music": "Libertação",
-    "album": "Filhos de Israel",
-    "autor": "Daniel Ludtke",
-    "canal": "GravadoraNT",
-    "ano": "2012",
+    "music": "Hoje",
+    "album": "Vida",
+    "autor": "Joyce Zanardi",
+    "canal": "",
+    "ano": "2013",
     "link": "",
-    "img": "filhos_israel-daniel_ludtke.jpg"
+    "img": "vida-joyce_zanardi.jpg"
+  },
+  {
+    "music": "Minha Missão",
+    "album": "Vida",
+    "autor": "Joyce Zanardi",
+    "canal": "",
+    "ano": "2013",
+    "link": "",
+    "img": "vida-joyce_zanardi.jpg"
+  },
+  {
+    "music": "Sinfonia",
+    "album": "Vida",
+    "autor": "Joyce Zanardi",
+    "canal": "",
+    "ano": "2013",
+    "link": "",
+    "img": "vida-joyce_zanardi.jpg"
   },
   {
     "music": "Maravilhoso Salvador",
@@ -69,132 +195,6 @@
     "canal": "Andréia Trindade",
     "ano": "2009",
     "link": "https://youtu.be/80bc-pzEQRg",
-    "img": "terra_seca-fernando_iglesias.jpg"
-  },
-  {
-    "music": "Canção de Pedro",
-    "album": "Luz do Mundo",
-    "autor": "Daniel Ludtke",
-    "canal": "Luan Isaque",
-    "ano": "2014",
-    "link": "https://youtu.be/tGh2lRGDYlM",
-    "img": "terra_seca-fernando_iglesias.jpg"
-  },
-  {
-    "music": "Os Meus Lábios Te Louvam",
-    "album": "Salmos 1",
-    "autor": "Daniel Ludtke",
-    "canal": "GravadoraNT",
-    "ano": "2011",
-    "link": "https://youtu.be/hDal7TVWEJU",
-    "img": "terra_seca-fernando_iglesias.jpg"
-  },
-  {
-    "music": "Me Cura",
-    "album": "Luz do Mundo",
-    "autor": "Daniel Ludtke",
-    "canal": "GravadoraNT",
-    "ano": "2014",
-    "link": "https://youtu.be/ox2yn3Vi8Zw",
-    "img": "terra_seca-fernando_iglesias.jpg"
-  },
-  {
-    "music": "Sonda-me",
-    "album": "Salmos 2",
-    "autor": "Daniel Ludtke",
-    "canal": "GravadoraNT",
-    "ano": "2018",
-    "link": "https://youtu.be/PlYFAHmchmE",
-    "img": "terra_seca-fernando_iglesias.jpg"
-  },
-  {
-    "music": "Espera em Deus",
-    "album": "Salmos 2",
-    "autor": "Daniel Ludtke",
-    "canal": "GravadoraNT",
-    "ano": "2018",
-    "link": "https://youtu.be/AQffaP4HWKE",
-    "img": "terra_seca-fernando_iglesias.jpg"
-  },
-  {
-    "music": "Ouve meu Coração",
-    "album": "Mil Versos",
-    "autor": "Coral Jovem Unasp",
-    "canal": "Coral Shekinah BE",
-    "ano": "2017",
-    "link": "https://youtu.be/hh-gIgO9xAM",
-    "img": "terra_seca-fernando_iglesias.jpg"
-  },
-  {
-    "music": "Pedaços",
-    "album": "Pedaços",
-    "autor": "Fernando Iglesias",
-    "canal": "",
-    "ano": "2014",
-    "link": "",
-    "img": "terra_seca-fernando_iglesias.jpg"
-  },
-  {
-    "music": "O Mais Difícil é Ser Deus",
-    "album": "Falta Você",
-    "autor": "Fernando Iglesias",
-    "canal": "",
-    "ano": "2008",
-    "link": "",
-    "img": "terra_seca-fernando_iglesias.jpg"
-  },
-  {
-    "music": "O Seu Olhar",
-    "album": "Falta Você",
-    "autor": "Fernando Iglesias",
-    "canal": "",
-    "ano": "2008",
-    "link": "",
-    "img": "terra_seca-fernando_iglesias.jpg"
-  },
-  {
-    "music": "Falta Você",
-    "album": "Falta Você",
-    "autor": "Fernando Iglesias",
-    "canal": "",
-    "ano": "2008",
-    "link": "",
-    "img": "terra_seca-fernando_iglesias.jpg"
-  },
-  {
-    "music": "Antes Você Precisa Crer",
-    "album": "Manhã",
-    "autor": "Laura Morena",
-    "canal": "",
-    "ano": "2010",
-    "link": "",
-    "img": "terra_seca-fernando_iglesias.jpg"
-  },
-  {
-    "music": "Hoje",
-    "album": "Vida",
-    "autor": "Joyce Zanardi",
-    "canal": "",
-    "ano": "2013",
-    "link": "",
-    "img": "terra_seca-fernando_iglesias.jpg"
-  },
-  {
-    "music": "Minha Missão",
-    "album": "Vida",
-    "autor": "Joyce Zanardi",
-    "canal": "",
-    "ano": "2013",
-    "link": "",
-    "img": "terra_seca-fernando_iglesias.jpg"
-  },
-  {
-    "music": "Sinfonia",
-    "album": "Vida",
-    "autor": "Joyce Zanardi",
-    "canal": "",
-    "ano": "2013",
-    "link": "",
     "img": "terra_seca-fernando_iglesias.jpg"
   },
   {

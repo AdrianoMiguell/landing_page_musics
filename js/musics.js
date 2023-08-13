@@ -78,17 +78,15 @@ let view_albums = async (data) => {
     albums.appendChild(album);
 
     let div_album = document.querySelectorAll(".album");
+    div_album[a].innerHTML = `<img src="./img/musics-albums/${
+      data[order[a]].img
+    }" alt="capa do album ${data[order[a]].album}" />`;
 
-    let img_album = document.createElement("img");
-    img_album.setAttribute(
-      "src",
-      `<img src="./img/musics-albums/${
-        data[order[a]].img
-      }" alt="capa do album ${data[order[a]].album}" />`
-    );
-    div_album[a].appendChild(img_album);
+    div_album[a].innerHTML += `<div class="desc_album">
+      <span class="name_album"> ${data[order[a]].album} </span>
+      <span class="autor"> Álbum | ${data[order[a]].autor} </span>
+    </div>`;
   }
-
 };
 
 // {
