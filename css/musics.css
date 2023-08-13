@@ -1,15 +1,11 @@
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-}
-
 body {
   background-color: rgb(var(--tert-c)) !important;
 }
-
 nav {
   border-bottom: solid 2.5px rgb(var(--main-c));
+}
+main{
+  margin-bottom: 5em;
 }
 
 .sec-musics h2 {
@@ -17,13 +13,14 @@ nav {
   color: rgb(var(--sec-c));
 }
 
-.musics {
-  /* background-color: aqua; */
+.musics,
+.albums {
+  margin: 0.5em 1em;
   display: flex;
   gap: 1em;
   overflow-x: scroll;
 }
-.musics::-webkit-scrollbar {
+.musics::-webkit-scrollbar, .albums::-webkit-scrollbar {
   display: none;
 }
 .musics .four-musics {
@@ -42,7 +39,7 @@ nav {
   cursor: pointer;
 }
 .music:hover {
-  background-color: rgba(var(--sec-c), .05);
+  background-color: rgba(var(--sec-c), 0.05);
 }
 .music .image > img {
   width: 40px;
@@ -57,7 +54,29 @@ nav {
   font-weight: 600;
   font-size: 10pt;
 }
-.music .informs .album-music {
+.music .informs .album-music,
+.album .desc_album .autor {
   color: rgb(213, 217, 219);
   font-size: 10pt;
+}
+
+.albums{
+  margin: 1em 2em;
+}
+.album {
+  display: grid;
+  gap: 5px;
+}
+.album img {
+  border-radius: 5px;
+  width: 10em;
+  height: auto;
+}
+.album .desc_album {
+  font-size: 10pt;
+  padding: 2.5px;
+  display: grid;
+  gap: 1px;
+  width: 100%;
+  color: rgb(var(--sec-c));
 }

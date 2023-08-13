@@ -14,6 +14,7 @@ let get_data = async () => {
     try {
       console.log(data);
       view_musics(data);
+      view_albums(data);
     } catch (error) {
       console.error(error);
     }
@@ -21,7 +22,6 @@ let get_data = async () => {
 };
 
 let view_musics = async (data) => {
-
   for (let d = 0; d < 5; d++) {
     let div = document.createElement("div");
     div.setAttribute("class", "four-musics");
@@ -54,5 +54,56 @@ let view_musics = async (data) => {
     }
   }
 };
+
+let view_albums = async (data) => {
+  let order = [];
+
+  const div_albums = document.querySelector(".div_albums");
+  const albums = document.querySelector(".albums");
+
+  for (let i = 0; i < data.length - 1; i++) {
+    if (data[i].album != data[i + 1].album) {
+      order.push(i);
+    }
+  }
+
+  console.log(order);
+  order.forEach((e) => {
+    console.log(data[e].album);
+  });
+
+  for (let a = 0; a < 10; a++) {
+    let album = document.createElement("div");
+    album.setAttribute("class", "album");
+    albums.appendChild(album);
+
+    let div_album = document.querySelectorAll(".album");
+
+    let img_album = document.createElement("img");
+    img_album.setAttribute(
+      "src",
+      `<img src="./img/musics-albums/${
+        data[order[a]].img
+      }" alt="capa do album ${data[order[a]].album}" />`
+    );
+    div_album[a].appendChild(img_album);
+  }
+
+};
+
+// {
+/* <div class="div_albums">
+          <h2>Albuns</h2>
+          <div class="albums">
+            <div class="album">
+              <img src="./img/musics-albums/falta_voce-fernando_iglesias.jpg" alt="">
+              <div class="desc_album">
+                <span class="name_album"> Tal </span>
+                <span class="autor"> Album | Adriano </span>
+              </div>
+            </div>
+           
+          </div> */
+// }
 
 start();
