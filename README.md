@@ -7,3 +7,4 @@ Esta é uma landing page, que leva para uma outra página em que listo as minhas
 
 ## Página em que trago minhas músicas preferidas
 ![imagem da lista de minhas músicas preferidas](https://github.com/AdrianoMiguell/landing_page_musics/blob/main/screen_my_prefer_musics.png)
+![continuação da imagem da lista de minhas músicas preferidas](https://github.com/AdrianoMiguell/landing_page_musics/blob/main/screen_my_prefer_musics-part2.png)
